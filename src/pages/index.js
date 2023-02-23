@@ -8,7 +8,7 @@ const pageStyles = {
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
-  maxWidth: 320,
+  maxWidth: 400,
 }
 const headingAccentStyles = {
   color: "#663399",
@@ -127,7 +127,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        Congratulations
+        Congratulations, Wei
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
